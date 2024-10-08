@@ -1,0 +1,57 @@
+body{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e3f9ff;
+}
+.container {
+    background: #3a4452;
+    width: 400px; /* adjust the width and height as needed */
+    height: 600px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px; /* add some padding if needed */
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.screen{
+    box-sizing: border-box;
+    width: 380px;
+    height:120px;
+    outline:0;
+    box-shadow: -2px -2px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.2);
+    background:transparent;
+    font-size:20px;
+    color:#fff;
+    letter-spacing:  .6px;
+    border: solid black 0;
+    cursor: pointer;
+    padding:20px;
+}
+button{
+    width:60px;
+    height: 60px;
+    margin:5px 10px;
+    background :#3a4452;;
+    box-shadow: -4px -4px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    border-radius: 50%;
+    border: 0;
+    outline: 5px;
+    color:#fff;
+    font-size:20px;
+    font-weight:100;
+    cursor: pointer;
+
+}
+.calc{
+    height:60px;
+}
+.row :where(.clear, .del, .multiplication, .division, .subtraction, .addition) {
+    color: #c2fdab;
+  }
